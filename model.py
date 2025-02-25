@@ -188,9 +188,9 @@ class GeoConvNetwork(nn.Module):
         return output_pois_embs
 
 
-class DCHL(nn.Module):
+class HODE_MDP(nn.Module):
     def __init__(self, num_users, num_pois, args, device):
-        super(DCHL, self).__init__()
+        super(HODE_MDP, self).__init__()
 
         # definition
         self.num_users = num_users
