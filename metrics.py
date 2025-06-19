@@ -2,7 +2,6 @@
 
 import numpy as np
 
-
 def hit_k(y_pred, y_true, k):
     y_pred_indices = y_pred.topk(k=k).indices.tolist()
     if y_true in y_pred_indices:
