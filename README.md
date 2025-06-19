@@ -1,5 +1,5 @@
 # HODE-MDP
-The repository for Hypergraph ODE-based Multi-aspect User Dynamic Preference Modeling for Next POI Recommendation
+The repository for Hypergraph ODE-based Multi-aspect User Dynamic Preference Modeling for Next POI Recommendation.
 
 ## Requirements
 
@@ -11,5 +11,5 @@ The repository for Hypergraph ODE-based Multi-aspect User Dynamic Preference Mod
 + numpy 1.24.3
 
 ## Running 
-run HODE-MDP on NYC: `python run.py --dataset NYC --t1 7 --t2 14 --t3 7`
-run HODE-MDP on TKY: `python run.py --dataset TKY --t1 7 --t2 5 --t3 7`
+run HODE-MDP on NYC: `python run.py --dataset NYC --t1 7 --t2 14 --t3 7 --lambda_cl 0.4`
+run HODE-MDP on TKY: `python run.py --dataset TKY --t1 7 --t2 5 --t3 7 --lambda_cl 0.3`
