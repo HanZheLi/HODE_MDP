@@ -6,7 +6,6 @@ from math import radians, cos, sin, asin, sqrt
 import scipy.sparse as sp
 import torch
 
-
 def get_unique_seq(sessions_list):
     """Get unique POIs in the sequence"""
     seq_list = []
